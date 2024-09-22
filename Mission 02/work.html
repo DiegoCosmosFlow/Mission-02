@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Reis - Full-Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Diego Reis</h1>
+        <p>Full-Stack Developer | Web Enthusiast | Problem Solver</p>
+    </header>
+
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="nav-box" id="about-nav">About Me</div>
+        <div class="nav-box" id="projects-nav">Projects</div>
+        <div class="nav-box" id="skills-nav">Skills</div>
+        <div class="nav-box" id="contact-nav">Contact</div>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div id="about-content" class="collapsible-content">
+            <p id="about-text">Welcome to my portfolio. I am a passionate full-stack developer with expertise in both front-end and back-end technologies.</p>
+        </div>
+        <button id="toggle-about-btn">Show More</button>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>This project showcases my skills in building responsive web applications with modern technologies.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A demonstration of my ability to create dynamic, data-driven applications using various frameworks.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <button id="add-skill-btn">Add Skill</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Diego Reis | <a href="https://github.com/DiegoCosmosFlow" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/diegometalurgico" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
